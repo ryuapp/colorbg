@@ -1,4 +1,4 @@
-// @ts-expect-error
+// @ts-expect-error Wasm import
 import module from "@takumi-rs/wasm/takumi_wasm_bg.wasm";
 import { initSync, Renderer } from "@takumi-rs/wasm";
 import { container } from "@takumi-rs/helpers";
